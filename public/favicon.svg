@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5E2B" />
+      <stop offset="100%" stop-color="#EB4915" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Square with subtle gradient for premium modern look -->
+  <rect width="32" height="32" rx="8" fill="url(#brand-grad)" />
+  
+  <!-- Sleek, High-Fidelity Serif Letter B (representing Bon Bread) -->
+  <text x="16" y="22" font-family="'Times New Roman', 'Prompt', 'Georgia', serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">B</text>
+  
+  <!-- Tiny organic dot accent to denote craftsmanship and baking rise -->
+  <circle cx="22" cy="11" r="2.5" fill="#341E19" />
+</svg>

@@ -160,13 +160,13 @@ export default function Navbar() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center h-20 overflow-visible relative">
+          <a href="/" className="flex items-center h-20 overflow-visible relative cursor-pointer select-none">
             <img
               src="/bon%20bread%20images/logo.avif"
               alt="Bon Bread Logo"
-              className="h-28 w-auto object-contain select-none drop-shadow-md z-50 translate-y-3.5"
+              className="h-28 w-auto object-contain drop-shadow-md z-50 translate-y-3.5"
             />
-          </div>
+          </a>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8 text-sm font-semibold text-[#341E19]">

@@ -34,9 +34,21 @@ export default function AboutPage() {
         {/* Story Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-6">
-            <span className="text-xs font-bold text-[#EB4915] uppercase tracking-widest block">
-              Our Journey
-            </span>
+            <div className="space-y-4">
+              <span className="text-xs font-bold text-[#EB4915] uppercase tracking-widest block">
+                Our Journey
+              </span>
+              
+              {/* Parent Company Corporate Landscape Logo */}
+              <div className="bg-[#FAF6F0] border border-[#EBE3D5] rounded-2xl p-4 inline-flex items-center justify-center max-w-[280px] shadow-sm select-none">
+                <img
+                  src="/bon%20bread%20images/Food-Food-Logo.avif"
+                  alt="Food &amp; Food Integrated Limited Logo"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
+            </div>
+
             <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#23110E] tracking-tight">
               Food &amp; Food Integrated Limited
             </h2>
