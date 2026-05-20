@@ -112,6 +112,11 @@ export default function Footer() {
                   Wholesale Portal
                 </a>
               </li>
+              <li>
+                <a href="/contact" className="hover:text-[#EB4915] hover:pl-1 transition-all duration-200 block">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -181,7 +186,7 @@ export default function Footer() {
           <div className="flex items-center gap-2 text-xs text-[#FAF6F0]/40">
             <ShieldCheck className="w-4 h-4 text-[#EB4915]" />
             <p>
-              &copy; {currentYear} Food &amp; Food Integrated Ltd. Premium Bakery Division. All rights reserved.
+              {`© ${currentYear} Food & Food Integrated Ltd. Premium Bakery Division. All rights reserved.`}
             </p>
           </div>
 

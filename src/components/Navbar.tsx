@@ -185,7 +185,7 @@ export default function Navbar() {
             >
               About us
             </a>
-            <a href="/#footer" className="hover:text-[#EB4915] transition-colors">
+            <a href="/contact" className="hover:text-[#EB4915] transition-colors">
               Contact
             </a>
           </nav>
@@ -253,7 +253,7 @@ export default function Navbar() {
               About us
             </a>
             <a
-              href="/#footer"
+              href="/contact"
               className="block py-2 text-base font-semibold text-[#341E19]"
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -277,22 +277,13 @@ export default function Navbar() {
           <Info className="w-5 h-5" />
           <span className="text-[10px] font-bold uppercase tracking-wider">About</span>
         </a>
-        <button
-          onClick={() => {
-            if (typeof window !== "undefined") {
-              const footer = document.getElementById("footer");
-              if (footer) {
-                footer.scrollIntoView({ behavior: "smooth" });
-              } else {
-                window.location.href = "/#footer";
-              }
-            }
-          }}
-          className="flex flex-col items-center gap-1 text-[#341E19]/70 hover:text-[#EB4915] active:text-[#EB4915] transition-colors cursor-pointer select-none bg-transparent border-none p-0 outline-none"
+        <a
+          href="/contact"
+          className="flex flex-col items-center gap-1 text-[#341E19]/70 hover:text-[#EB4915] active:text-[#EB4915] transition-colors cursor-pointer select-none"
         >
           <Phone className="w-5 h-5" />
           <span className="text-[10px] font-bold uppercase tracking-wider">Contact</span>
-        </button>
+        </a>
       </div>
 
       {/* Global Floating Shopping Cart Trigger (Visible on all pages when cart is not empty) */}
